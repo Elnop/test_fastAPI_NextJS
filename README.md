@@ -16,4 +16,4 @@ git clone git@github.com:Elnop/test_fastAPI_NextJS.git
 ```
 docker-compose up
 ```
-----> [http://localhost:3000/](http://localhost:3000/)
+===> [http://localhost:3000/](http://localhost:3000/)
