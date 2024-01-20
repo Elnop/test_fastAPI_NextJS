@@ -1,0 +1,75 @@
+.page-title {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 80vw;
+	margin: 20px auto;
+	padding: 20px 0;
+}
+
+.card {
+	border-radius: 20px;
+	flex: none;
+	display: block;
+	width: 400px;
+	height: 500px;
+	margin-bottom: 20px;
+	border: 3px solid white;
+}
+
+.card-title {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	word-wrap: break-word;
+}
+
+.card-text {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	word-wrap: break-word;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.input {
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	background: none;
+	border: none;
+	border-bottom: 3px solid white;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	transition: 200ms;
+}
+
+.input:focus, .input:hover {
+	border-bottom: 5px solid white;
+}
+
+.submit {
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	font-size: 20px;
+	background: none;
+	border: 3px solid white;
+	padding: 10px 0;
+	font-weight: bold;
+	transition: 500ms;
+}
+
+.submit:hover {
+	background: white;
+	color: black;
+	border-color: black;
+}
